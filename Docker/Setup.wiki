@@ -1,0 +1,14 @@
+在Mac下安装Docker
+
+http://www.docker.com
+
+https://download.docker.com/mac/stable/Docker.dmg
+
+安装好之后
+
+在命令行中
+输入docker --version 查看是否装好
+
+运行docker pull ubunt，如果出现下面错误
+Error response from daemon: Get https://registry-1.docker.io/v2/library/ngix/manifests/latest: unauthorized: incorrect username or password.
+则
